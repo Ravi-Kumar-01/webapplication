@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img-div img {
+    height: auto;
+    width: 1350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    overflow: hidden;
+    margin: 20px;
+    font-family: 'Helvetica';
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar img {
+    height: 100px;
+    width: auto;
+    overflow: auto;
+}
+
+.navbar-ul {
+    padding: 5px;
+    justify-content: end;
+    margin-left: auto;
+}
+
+.navbar-ul li {
+    display: inline;
+    position: relative;
+    list-style: none;
+    margin: 0 10px 0 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none
+}
+
+.img-div {
+    background-image: url("../images/grinding.jpg");
+    /*background-color: red; */
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
